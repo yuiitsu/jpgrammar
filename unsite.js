@@ -279,7 +279,7 @@ var Server = {
         var posts = Fs.readdirSync(postPath);
         if (posts) {
             var postList = [];
-            posts.reverse().forEach(function(post) {
+            posts.forEach(function(post) {
                 console.log('## building post: ' + post);
                 var content = Fs.readFileSync(postPath + post, 'utf8');
                 var rex = new RegExp(/\-\-\-\r*\n([\s\S]*)\r*\n\-\-\-/);
@@ -292,7 +292,8 @@ var Server = {
                         var items =  contentHeaderList[i].replace("\r", "").split(":");
                         contentHeaderObject[items[0]] = items[1].replace(" ", "");
                     }
-                    contentHeaderObject['url'] = self.config.site.host + 'post/' + post;
+                    //contentHeaderObject['url'] = (host ? host : self.config.site.host) + 'post/' + post;
+                    contentHeaderObject['url'] = 'post/' + post;
 
                     postList.push(contentHeaderObject);
 
