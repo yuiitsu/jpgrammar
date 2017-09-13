@@ -1,0 +1,10 @@
+{{ for i in data }}
+<div class="list-item">
+    <h2 class="list-item-title">
+        <a href="{{ data[i]['url'] }}" target="_blank">
+            {{ data[i]['title'] }}
+        </a>
+    </h2>
+    <div class="list-item-introduction">{{ data[i]['introduction'] }}</div>
+</div>
+{{ end }}

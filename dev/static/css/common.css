@@ -1,0 +1,37 @@
+body,html{-webkit-tap-highlight-color:transparent;}
+body{margin:0;padding:0;font-size:16px;color:#fff;background-color:#232323;
+    font-family:"Microsoft YaHei","STHeiti",sans-serif;}
+h1,h2,h3,h4,p,ul{margin:0;padding:0;}
+ul{list-style:none}
+a{text-decoration:none;color:#fff;}
+button{cursor:pointer;}
+a,button,input,textarea{}
+pre{font-family:"Microsoft YaHei","STHeiti",sans-serif;
+    border:1px solid #333;border-radius: 3px;text-indent: 0;padding:10px;overflow-x:auto;}
+
+.fl{float:left;}
+.fr{float:right;}
+.blank{clear:both;font-size:0;}
+.center{text-align:center;text-indent: 0;}
+
+.container{padding:10px 1.25rem;width:13.5rem;margin:0 auto;}
+.header{border-bottom:1px solid #333;background-color:#000;color:#fff;}
+.logo{font-size:20px;}
+
+.post-title{border-bottom:1px solid #333;margin-bottom:10px;text-indent: 0;color:#fff;padding:10px 0;}
+.post-content{padding: 20px 0;line-height:1.6;color:#ccc;}
+.post-content p{margin-bottom:10px;}
+.post-content p.center{text-indent: 0;}
+.post-content h2,.post-content h3,.post-content h4{color:#fff;padding:10px 0;}
+.post-content h2{border-bottom:1px solid #333;margin-bottom:10px;text-indent: 0;}
+
+.post-info{padding:10px 0;}
+
+.list-list{}
+.list-item{border-bottom:1px solid #333;padding:10px 0;}
+.list-item-title{font-size:20px;padding-bottom:10px;}
+.list-item-avatar{width:2.7rem;}
+.list-item-avatar img{width:100%;}
+.list-item-introduction{line-height:1.6;color:#ccc;width:10.4rem;margin-left:0.4rem;}
+
+.page{padding:10px 0;}

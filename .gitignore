@@ -1,0 +1,12 @@
+/.idea
+.DS_Store
+/html
+/mobile
+/dist
+/pc
+/pcshop
+*.zip
+*.iml
+.project
+/.settings
+node_modules/*

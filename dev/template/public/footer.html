@@ -1,0 +1,9 @@
+{{ if data && data.value }}
+{{ if data.type == 1 }}
+由<span class='wm_color_red'>{{ data.value }}</span>提供技术支持
+{{ else if data.type == 2 }}
+由<img src="{{ data.value }}" class="wm_footer_image">提供技术支持
+{{ end }}
+{{ else }}
+由<a href="http://www.wemart.cn"><span class='wm_color_red'>微猫</span></a>提供技术支持
+{{ end }}
